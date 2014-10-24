@@ -75,7 +75,7 @@ namespace CoffeeMakerApps.Api {
 * This function turns the heating element in the warmer
 * plate on or off.
 */
-        void SetWarmerState(WarmerState s);
+        void SetWarmerState(WarmerState boilerState);
 /*
 * This function turns the indicator light on or off.
 * The indicator light should be turned on at the end

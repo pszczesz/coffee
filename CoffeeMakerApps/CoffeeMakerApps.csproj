@@ -43,7 +43,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\CoffeeMakerApi.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="M4CoffeeMaker\ContainmentVessel.cs" />
+    <Compile Include="M4CoffeeMaker\HotWaterSource.cs" />
+    <Compile Include="M4CoffeeMaker\M4CoffeeMakerApi.cs" />
+    <Compile Include="M4CoffeeMaker\M4ContainmentVessel.cs" />
+    <Compile Include="M4CoffeeMaker\M4HotWaterSource.cs" />
+    <Compile Include="M4CoffeeMaker\M4UserInterface.cs" />
+    <Compile Include="M4CoffeeMaker\Pollable.cs" />
+    <Compile Include="M4CoffeeMaker\UserInterface.cs" />
+    <Compile Include="M4CoffeeMakerRun.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
